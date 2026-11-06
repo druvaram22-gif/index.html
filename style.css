@@ -1,0 +1,47 @@
+#div1{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 1pxsolid black;
+    margin: 10px;
+background-color:rgb(60, 1, 1);
+border-radius: 50%;
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 1pxsolid rgb(0, 0, 0);
+    margin: 10px;
+background-color: rgb(80, 53, 2);
+border-radius: 50%;
+}
+#div3{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 1pxsolid rgb(0, 0, 0);
+    margin: 10px;
+background-color: rgb(1, 64, 1);
+border-radius: 50%;
+}
+
+#div1:hover{
+    background-color:red;
+    box-shadow:  1px 1px 100px red;
+}
+#div2:hover{
+    background-color:orange;
+box-shadow:  1px 1px 100px orange ;
+}
+#div3:hover{
+    background-color:green;
+    box-shadow:  1px 1px 100px green;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+}
